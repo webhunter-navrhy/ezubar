@@ -1,17 +1,16 @@
 {
   "znamka": 7,
   "slabiny": [
-    "Úvod (hero), hlavně mobil: mapový pruh je pryč a fotka už nemá žlutou silnici ani špendlík, takže tahle část je opravená. Ořezem se ale zdroj zúžil na budova-356 a na mobilu se fotka vykresluje na 700 px, tedy 1,97× (víc než minule). Na mobilu je viditelně měkká. Na PC je to dál malá karta vpravo, ne fotka na celou výšku pravé poloviny. Opravit: vzít větší fotku budovy nebo ambulance z jejich Facebooku (aspoň 900 px na šířku) a na PC ji dát na celou výšku pravé poloviny. Když větší zdroj není, dát na mobilu img max-width: 356px, vycentrovat ji a na PC nechat současnou velikost karty.",
-    "Technológie, řádek Výroba náhrad priamo u nás (PC buňka 3, mobil buňka 5): výtka z minulého kola není opravená. Pod fotkou 3D tiskárny Formlabs je dál prázdný bílý pruh s osamělou tečkou. Je to zbytek slideru přímo v souboru obrázku, takže object-fit nestačí, pokud box kopíruje poměr stran zdroje. Opravit: ořezat zdrojový soubor o spodních asi 25 % (bílý pruh i s tečkou), nebo dát kartě pevný aspect-ratio 16/10 s object-fit: cover a object-position: top.",
-    "Technológie, PC (buňky 2–3): keramika i CT už nejsou roztažené, takže výtka je opravená. Fotky v řádcích ale teď mají čtyři různé velikosti: keramika jako drobná miniatura asi 165 px, CT jako střední karta a 3D tisk a laser jako široké karty. Rytmus sekce působí nahodile. Opravit: dát všem fotkám v sekci stejný rám (např. 360 × 260 px, světlý podklad #eef5fb) a obrázek uvnitř vycentrovat přes object-fit: contain bez zvětšení přes nativní velikost. Fotky střídat vlevo a vpravo v jedné mřížce."
+    "Úvod (hero), mobil i PC: výtka z minulého kola není opravená. Zdroj je dál img/budova-356.webp a podle QA se na mobilu vykresluje na 700 px (1,97×), takže fotka budovy je na mobilu viditelně měkká. Na PC je to dál malá karta vpravo, ne fotka na celou výšku pravé poloviny. Opravit: vzít z jejich Facebooku větší fotku budovy nebo ambulance (aspoň 900 px na šířku) a na PC ji dát na celou výšku pravé poloviny. Když větší zdroj není, dát na mobilu img max-width: 356px a margin: 0 auto a na PC nechat současnou velikost karty.",
+    "Technológie, mobil (buňky 4–5): sjednocený rám na PC funguje, ale na mobilu se fotky roztahují na celou šířku. Keramika (keramika-320) je zvětšená 2,19× a CT (ct-pristroj-470) 1,49×, takže porušují i minulý pokyn ‚bez zvětšení přes nativní velikost‘. Opravit: na mobilu dát stejný světlý rám (#eef5fb, aspect-ratio 16/10) a obrázek uvnitř s object-fit: contain a max-width rovnou nativní šířce (320 / 470 px), nebo dodat větší zdroje.",
+    "Objednajte sa (patička s kontaktem), mobil buňka 7: odkazy +421 944 907 165 a info@e-zubar.sk jsou dotykové cíle jen 18 px vysoké (QA). Přitom jsou to hlavní konverzní prvky na telefonu. Opravit: dát oběma odkazům display: inline-block, padding 11px 0 a min-height 44px, případně telefon udělat jako druhé tlačítko vedle ‚Objednať sa‘."
   ],
   "zavazne": [],
   "silne": [
-    "Světlý, klidný zdravotnický vzhled v klientově modré #4e9dd6, bez marquee, číslování, tmavého luxusu a jiných AI vzorů.",
-    "Konkrétní obsah o technologiích (zubné CT, CEREC, Lightwalker, Formlabs) a jasná hlavní akce: Objednať sa a telefon hned v úvodu, kontakty a formulář v patičce.",
-    "Dentálna hygiena je opravená: nadpis je zarovnaný na hranu ostatních sekcí a text je na PC ve dvou sloupcích.",
-    "Na žádné ze 6 šířek nic nepřetéká, menu je na mobilu čitelné a pořadí obsahu dává smysl."
+    "Řádek Výroba náhrad priamo u nás je opravený. Fotka tiskárny Formlabs je ořezaná bez bílého pruhu a tečky na PC i na mobilu.",
+    "Na PC mají fotky v sekci Technológie jednotný rám a pravidelně se střídají vlevo a vpravo, takže rytmus sekce je klidný.",
+    "Světlý, čistý medicínský vzhled v modré barvě z jejich stávajícího webu. Jasné H1 s městem, CTA Objednať sa a telefon hned v úvodu, poisťovne jako štítky a konkrétní technologie (CEREC, CT, Lightwalker) místo obecných frází."
   ],
-  "verdikt": "Dentálna hygiena a velikost fotek keramiky a CT jsou opravené, z hero zmizel mapový pruh. Fotka budovy v hero je na mobilu ale roztažená 1,97× a fotka 3D tisku má dál prázdný spodek s tečkou, takže známka zůstává 7 a web je potřeba opravit.",
-  "_hash": "27f36f11d521ff553909bdafff65612bb573135b"
+  "verdikt": "Dvě ze tří výtek jsou opravené (fotka 3D tisku a jednotný rám fotek v sekci Technológie na PC), ale fotka v úvodu je dál malá a na mobilu roztažená skoro 2×. Na mobilu se navíc roztahují i fotky v sekci Technológie. Známka zůstává 7, verdikt: opravit fotky na mobilu a v úvodu.",
+  "_hash": "d63f905bd173d133be3157c677add464a0999c3d"
 }
