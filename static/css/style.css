@@ -107,3 +107,4 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 .riadok:nth-child(3) img{object-position:center 20%}
 .hero-foto img{max-width:356px}
 @media(max-width:40rem){.hero-foto img{width:auto;max-width:100%}.hlavicka nav a{padding:.8rem .3rem}.formular input,.formular textarea{min-height:2.8rem}.skip{padding:.7rem 1rem}}
+.riadok:nth-child(3) img{object-fit:contain;background:#fff;border:1px solid var(--c)}
