@@ -1,0 +1,123 @@
+{
+ "slug": "ezubar",
+ "zdroj_url": "http://www.e-zubar.sk",
+ "firma": "e-zubár.sk – MDDr. Filip Langer, s.r.o.",
+ "obor": [
+  "zdraví a péče",
+  "technologie a bezpečnost"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "info@e-zubar.sk"
+  ],
+  "telefony": [
+   "+421 944 907 165"
+  ],
+  "adresa": "",
+  "socialni_site": [
+   "https://www.facebook.com/pages/MDDr-Filip-Langer-s-r-o/159175660833432"
+  ]
+ },
+ "logo": null,
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#4e9dd6",
+   "#e85c41"
+  ],
+  "z_loga": [],
+  "theme_color": null,
+  "doporucene": [
+   "#4e9dd6",
+   "#e85c41"
+  ]
+ },
+ "fotky": [],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "e-zubÃ¡r.sk ambulancia MDDr. Filipa Langera",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "ZubnÃ© CBCT",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "CEREC-zubnÃ½ robot",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "BojÃ­te sa zubnÃ©ho oÅ¡etrenia?",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "StruÄnÃ½ prehÄ¾ad noviniek v naÅ¡ej ambulancii",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "NaÅ¡e sluÅ¾by ZubnÃ© oÅ¡etrenie RontgenolÃ³gia CEREC ImplantolÃ³gia",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "ZubnÃ© CT PrvÃ© zubnÃ© CT na Liptove, pre diagnostiku skeletu a mÃ¤kkÃ½ch tkanÃ­v.",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Healozone Priam zÃ¡zraÄnÃ½ prÃ­stroj pre lieÄbu zaÄÃ­najÃºcich zubnÃ½ch kazov a mnohÃ½ch inÃ½ch stavov v Ãºstnej dutine",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "ENTONOX S rajskÃ½m plynom VÃ¡s zbavÃ­me strachu zo zubnÃ©ho oÅ¡etrenia.",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "OperaÄnÃ½ mikroskop S tÃ½mto modernÃ½m zariadenÃ­m mÃ´Å¾eme dÃ´sledne oÅ¡etriÅ¥ VÃ¡Å¡ zub a zachovaÅ¥ tak Äo najviac zdravÃ½ch zubnÃ½ch tkanÃ­v.",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Diagnodent UnikÃ¡tny laser, ktorÃ½ dokÃ¡Å¾e vÄas odhaliÅ¥ zaÄÃ­najÃºce a malÃ© kazy. Tie je potom Äasto moÅ¾nÃ© vylieÄiÅ¥ profilakticky, alebo miniinvazÃ­vne...",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Lightwalker Laserove osetrenie zubov je osetrenim buducnosti, ktore je uz dnes dostupne.",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Diagnocam Specialna kamera, ktorï¿½ bez RTG ziarenia odhali kazdy medzizubny kaz. .",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "OkluzÃ¡lna analÃ½za Tekscan TscanIII je Å¡peciÃ¡lny sekener pre snÃ­manie okluzÃ¡lnych tlakov umoÅ¾Åuje dokonale vybalancovaÅ¥ protetickÃ© prÃ¡ce a zvÃ½Å¡iÅ¥ tak ich kvalitu a komfort pacienta... .",
+   "zdroj": "http://www.e-zubar.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Laser dr.Smile Laser pre drobnÃ© chirurgickÃ© zÃ¡kroky, bielenie, stimulÃ¡ciu hojenia... .",
+   "zdroj": "http://www.e-zubar.sk/"
+  }
+ ],
+ "chybi": [
+  "IČO",
+  "logo (v dobrém rozlišení, ideálně vektor)",
+  "fotky firmy/provozu/produktů (nalezeno 0, potřeba aspoň 6)",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": ""
+}

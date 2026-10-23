@@ -1,0 +1,53 @@
+{
+  "slug": "ezubar",
+  "nazev": "e-zubár.sk – MDDr. Filip Langer, s.r.o.",
+  "url": "https://webhunter-navrhy.github.io/ezubar/",
+  "base": "/ezubar/",
+  "lang": "sk",
+  "popis": "Zubná ambulancia MDDr. Filipa Langera v Liptovskom Hrádku: zubné ošetrenie, CEREC korunky na počkanie, implantáty, zubné CT a dentálna hygiena.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "budova.jpg",
+  "logo": "",
+  "theme_color": "#ffffff",
+  "typ": "Dentist",
+  "ico": "",
+  "kontakt": {
+    "email": "info@e-zubar.sk",
+    "telefon": "+421 944 907 165",
+    "adresa": {
+      "ulice": "SNP 231",
+      "psc": "033 01",
+      "mesto": "Liptovský Hrádok",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [
+    "https://www.facebook.com/pages/MDDr-Filip-Langer-s-r-o/159175660833432"
+  ],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Dopyt z webu e-zubar.sk"
+  },
+  "nav": [
+    {
+      "text": "Ošetrenia",
+      "href": "#osetrenia"
+    },
+    {
+      "text": "Technológie",
+      "href": "#technologie"
+    },
+    {
+      "text": "Implantáty",
+      "href": "#implantaty"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}

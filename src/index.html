@@ -1,0 +1,117 @@
+{% extends "_base.html" %}
+{% set titulek = 'Zubár Liptovský Hrádok – e-zubár.sk, MDDr. Filip Langer' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="stitok"><span class="bod"></span>Opäť prijímame nových pacientov</p>
+      <h1>Zubná ambulancia v Liptovskom Hrádku</h1>
+      <p class="perex">Tri zubní lekári, dve ambulancie dentálnej hygieny a vlastné technológie od CT snímku až po keramickú korunku na počkanie.</p>
+      <div class="tlacidla">
+        <a class="btn" href="#kontakt">Objednať sa</a>
+        <a class="btn btn-svetly" href="tel:+421944907165">0944 907 165</a>
+      </div>
+      <ul class="fakta" role="list">
+        <li><strong>Zubné CT</strong> priamo v ambulancii, aj pre pacientov iných lekárov</li>
+        <li><strong>CEREC</strong> – keramický zub na jednu návštevu</li>
+        <li><strong>Implantáty</strong> navigované podľa 3D snímku</li>
+      </ul>
+      <ul class="poistovne" role="list" aria-label="Zmluvné poisťovne"><li>Union</li><li>Dôvera</li><li>VšZP</li></ul>
+    </div>
+    <figure class="hero-foto">
+      {{ img('budova.jpg', 'Budova zubnej ambulancie na SNP 231 v Liptovskom Hrádku', sizes='(min-width: 60rem) 34rem, 100vw') }}
+      <figcaption>SNP 231, pri svetelnej križovatke oproti Lidl Outlet</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="sekce" id="osetrenia">
+  <div class="wrap">
+    <h2>Zubné ošetrenia v našej ambulancii</h2>
+    <ul class="zoznam" role="list">
+      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce sekce-modra" id="technologie">
+  <div class="wrap">
+    <h2>Celé ošetrenie pod jednou strechou</h2>
+    <p class="uvod">Röntgen, plánovanie aj výrobu náhrad máme priamo v ambulancii, takže nemusíte cestovať po iných pracoviskách.</p>
+    <div class="riadky">
+      <article class="riadok">
+        {{ img('keramika.jpg', 'Keramické zuby vyrobené systémom CEREC', sizes='(min-width: 60rem) 24rem, 100vw') }}
+        <div>
+          <h3>CEREC – nový zub bez čakania</h3>
+          <p>Keramickú korunku alebo výplň (inlay, onlay, overlay) vyrobíme počas jednej návštevy. Jedna injekcia, žiadne odtlačky a žiadne provizórium.</p>
+        </div>
+      </article>
+      <article class="riadok">
+        {{ img('ct-pristroj.jpg', 'Zubný CT prístroj Sirona Orthophos XG 3D', sizes='(min-width: 60rem) 24rem, 100vw') }}
+        <div>
+          <h3>Zubné CT a röntgen</h3>
+          <p>Sirona Orthophos XG 3D zachytí oblasť 8 × 8 cm jednou expozíciou. OPG snímku za 15 € a CT za 25 € urobíme aj pacientom, ktorých k nám pošle iný lekár.</p>
+        </div>
+      </article>
+      <article class="riadok">
+        {{ img('3d-tlac.jpg', '3D tlačiareň Formlabs na výrobu zubných náhrad', sizes='(min-width: 60rem) 24rem, 100vw') }}
+        <div>
+          <h3>Výroba náhrad priamo u nás</h3>
+          <p>Frézujeme zo zirkónu, titánu, chrómkobaltu a keramiky, kompozitné náhrady tlačíme na 3D tlačiarňach Formlabs.</p>
+        </div>
+      </article>
+      <article class="riadok">
+        {{ img('laser.jpg', 'Stomatologický laser Fotona Lightwalker', sizes='(min-width: 60rem) 24rem, 100vw') }}
+        <div>
+          <h3>Lasery a včasná diagnostika</h3>
+          <p>Laser Fotona Lightwalker ako minimálne invazívna „zubná vŕtačka“, Diagnodent a kamera Diagnocam odhalia kaz v medzizubnom priestore skôr ako RTG snímok.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="implantaty">
+  <div class="wrap implantat-grid">
+    <div>
+      <h2>Zubné implantáty</h2>
+      <p>Implantát nahradí chýbajúci koreň zuba a je trvalým riešením. Na CT snímku posúdime stav kosti hneď u nás a polohu implantátu naplánujeme vopred, pomocou CEREC Guide.</p>
+      <ul class="odrazky" role="list">
+        <li>Pri dostatku kosti môžeme implantát zaviesť hneď aj s provizórnou korunkou.</li>
+        <li>Zavádza sa v lokálnej anestézii, pri náročných zákrokoch aj v celkovej.</li>
+        <li>Implantáty Straumann a Meissinger už od 600 € za kus.</li>
+      </ul>
+    </div>
+    {{ img('implantaty.jpg', 'Zubné implantáty a náhrady', sizes='(min-width: 60rem) 30rem, 100vw') }}
+  </div>
+</section>
+
+<section class="sekce sekce-svetla" id="hygiena">
+  <div class="wrap">
+    <h2>Dentálna hygiena</h2>
+    <div class="dva-st">
+      <p>Pri hygiene používame prístup GBT: zubný povlak pacientovi zviditeľníme, aby vedel, kde čistiť. Pracujeme s prístrojmi Dürr Vector a EMS Prophylaxis.</p>
+      <p>Poistenci Union majú vďaka programu VIP Union ďalšiu dentálnu hygienu nad rámec dentálneho benefitu zadarmo.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce kontakt" id="kontakt">
+  <div class="wrap kontakt-grid">
+    <div>
+      <h2>Objednajte sa</h2>
+      <address>
+        <strong>MDDr. Filip Langer, s.r.o.</strong><br>
+        SNP 231<br>033 01 Liptovský Hrádok<br><br>
+        <a href="tel:+421944907165">+421 944 907 165</a><br>
+        <a href="mailto:info@e-zubar.sk">info@e-zubar.sk</a>
+      </address>
+      <p class="malo">Pacientov prijímame u troch zubných lekárov. Zmluvné poisťovne: Union, Dôvera, VšZP.</p>
+    </div>
+    <div>
+      {% include "_formular.html" %}
+    </div>
+  </div>
+</section>
+{% endblock %}

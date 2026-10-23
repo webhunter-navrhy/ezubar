@@ -1,0 +1,34 @@
+[
+  {
+    "nazev": "Záchovná stomatológia",
+    "popis": "Ošetrenie kazov a rekonštrukcia zubov v prirodzenej farbe."
+  },
+  {
+    "nazev": "Endodoncia",
+    "popis": "Ošetrenie koreňových kanálikov pod operačným mikroskopom."
+  },
+  {
+    "nazev": "Protetika",
+    "popis": "Korunky a mostíky z keramiky, zirkónu či kompozitu, vyrobené priamo v ambulancii."
+  },
+  {
+    "nazev": "Estetická stomatológia",
+    "popis": "Estetické rekonštrukcie zubných tkanív v prirodzenej farbe zuba."
+  },
+  {
+    "nazev": "Parodontológia",
+    "popis": "Liečba ochorení závesného aparátu zubov."
+  },
+  {
+    "nazev": "Detské zubné lekárstvo",
+    "popis": "Starostlivosť o najmenších pacientov."
+  },
+  {
+    "nazev": "Dentálna hygiena",
+    "popis": "Dve ambulancie dentálnej hygieny, prístup GBT s vizualizáciou povlaku."
+  },
+  {
+    "nazev": "Ošetrenie bez strachu",
+    "popis": "Entonox a bezbolestná anestézia QuickSleeper pre pacientov, ktorí sa ošetrenia boja."
+  }
+]
